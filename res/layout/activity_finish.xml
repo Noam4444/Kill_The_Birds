@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky5"
+    tools:context=".Finish">
+
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="396dp"
+        android:layout_marginBottom="256dp"
+        android:text="Enter Name"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="408dp"
+        android:layout_marginBottom="196dp"
+        android:text="Your score:"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvscore"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="196dp"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btexit"
+        android:layout_width="202dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Exit"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="402dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Game Over"
+        android:textColor="#F44336"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btdata"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="196dp"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="256dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btlist"
+        android:layout_width="201dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginBottom="92dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="List players"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
